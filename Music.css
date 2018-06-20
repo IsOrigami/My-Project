@@ -2,7 +2,7 @@
 body {
   background-color: rgb(114,180,252);
 }
-/* Text color white + link color*/
+
 h1, h3, p{
   color: white;
 }
@@ -37,9 +37,9 @@ li a {
 
 li a:hover {
     background-color: #357ff4;
+}
 
 /*Nav Bar End */
-}
 
 /*Border for title and sections */
 
@@ -56,16 +56,18 @@ div {
 
 /*Table for instruments */
 #theInstrumentTable {
-  border: 3px inset rgb(70,130,230);
+  border: 4px inset rgb(70,130,230);
 }
 img, .vid {
   width: 140px;
 }
+
 table, td, th {
   color: white;
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 #instruments {
   margin-bottom: 20px;
 }
@@ -82,9 +84,9 @@ table, td, th {
 /* color of link when mouse is hovering over it+no line under link*/
 
 a:hover {
-  color: rgba(80,150,255,0.9);
+  color: rgba(80,150,255,0.8);
 }
 
-a:link {
+a {
   text-decoration: none;
 }
